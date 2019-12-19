@@ -1,4 +1,4 @@
-# Predicting-DLBCL-using-CNN-in-Keras
+# Predicting-Lymphoma-using-CNN-in-Keras
 ```
 Classifying histopathology slides of Lymphoma as malignant or benign using CNN
 ```
