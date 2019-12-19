@@ -1,9 +1,10 @@
 # Predicting-Lymphoma-using-CNN-in-Keras
 ### Classifying histopathology slides of Lymphoma as malignant or benign using CNN
+<img src="/readme/inference/Slide2.JPG" height="450" width="800" >
 
 Dataset
 ==========
-The original dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of mother image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
+The original dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
 
 Each type of mother image file name is of the format: **type_patientID_class.tif**
 
@@ -27,7 +28,11 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 
 Training
 ==========
-For training, size of trainset is 90x4 and testset is 23x4 out of 113x4 mother images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
+The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
+
+Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
+
+
 
 
 
