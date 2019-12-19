@@ -47,9 +47,7 @@ Most diagnosed lymphoma cases have no known cause. However, some people are cons
 
 
 ### How is lymphoma diagnosed?
-A biopsy typically is taken if a doctor suspects lymphoma. This involves removing cells from an enlarged lymph node. A doctor known as a hematopathologist will examine the cells to determine if lymphoma cells are present and what cell type they are.  
-If the hematopathologist detects lymphoma cells, further testing can identify how far the cancer has spread. These tests can include a chest X-ray, blood testing, or testing nearby lymph nodes or tissues.  
-Imaging scans, such as a computed tomography (CT) or magnetic resonance imaging (MRI) scans may also identify additional tumors or enlarged lymph nodes.
+A biopsy typically is taken if a doctor suspects lymphoma. This involves removing cells from an enlarged lymph node. A doctor known as a hematopathologist will examine the cells to determine if lymphoma cells are present and what cell type they are. If the hematopathologist detects lymphoma cells, further testing can identify how far the cancer has spread. These tests can include a chest X-ray, blood testing, or testing nearby lymph nodes or tissues. Imaging scans, such as a computed tomography (CT) or magnetic resonance imaging (MRI) scans may also identify additional tumors or enlarged lymph nodes.
 
 ### What are the types of lymphoma?
 The two major lymphoma types are Hodgkin’s lymphoma and non-Hodgkin’s lymphoma (NHL). A pathologist in the 1800s named Dr. Thomas Hodgkin identified the cells in what is now called Hodgkin’s lymphoma. Those with Hodgkin’s lymphoma have large cancerous cells called Reed-Sternberg (RS) cells. People with NHL don’t have these cells.
@@ -57,67 +55,40 @@ The two major lymphoma types are Hodgkin’s lymphoma and non-Hodgkin’s lympho
 ### Non-Hodgkin’s lymphoma
 According to the Leukemia & Lymphoma Society (LLS), NHL is three times more common than Hodgkin’s lymphoma.Many lymphoma types fall under each category. Doctors call NHL types by the cells they affect, and if the cells are fast- or slow-growing. NHL forms in either the B-cells or T-cells of the immune system. According to LLS, most NHL types affect B-cells. Learn more about this type of lymphoma, who it affects, and where it occurs. Types include:
 * **B-cell lymphoma (85% NHL case)** 
->>Diffuse large B-cell lymphoma (DLBCL) is the most aggressive type of NHL. This fast-growing lymphoma comes from abnormal B cells in the blood. It can be cured if treated, but if left untreated, it can lead to death. The stage of DLBCL helps determine your prognosis. Read more about the stages and how this lymphoma is treated.
+>Diffuse large B-cell lymphoma (DLBCL) is the most aggressive type of NHL. This fast-growing lymphoma comes from abnormal B cells in the blood. It can be cured if treated, but if left untreated, it can lead to death. The stage of DLBCL helps determine your prognosis. Read more about the stages and how this lymphoma is treated.
 * **T-cell lymphoma**
->>T-cell lymphoma is not as common a B-cell lymphoma; only 15 percent of all NHL cases are this type. Several types of T-cell lymphoma exist. Learn more about each one, what they cause, and who is more likely to develop them.
+>T-cell lymphoma is not as common a B-cell lymphoma; only 15 percent of all NHL cases are this type. Several types of T-cell lymphoma exist. Learn more about each one, what they cause, and who is more likely to develop them.
 * **Burkitt’s lymphoma**
->>Burkitt’s lymphoma is a rare type of NHL that is aggressive and most common in people with compromised immune systems. This type of lymphoma is most common in children in sub-Saharan Africa, but it does occur in other parts of the world. Learn more about this rare type of non-Hodgkin’s lymphoma.
+>Burkitt’s lymphoma is a rare type of NHL that is aggressive and most common in people with compromised immune systems. This type of lymphoma is most common in children in sub-Saharan Africa, but it does occur in other parts of the world. Learn more about this rare type of non-Hodgkin’s lymphoma.
 * **Follicular lymphoma**
->>One in 5 lymphomas diagnosed in the United States are follicular lymphoma. This type of NHL, which starts in the white blood cells, is most common in older individuals. The average age of diagnosis is 60. This lymphoma is also slow-growing, so treatments begins with watchful waiting. Read more about this strategy.
+>One in 5 lymphomas diagnosed in the United States are follicular lymphoma. This type of NHL, which starts in the white blood cells, is most common in older individuals. The average age of diagnosis is 60. This lymphoma is also slow-growing, so treatments begins with watchful waiting. Read more about this strategy.
 * **Mantle cell lymphoma**
->>This aggressive form of lymphoma is rare — only about 6 percent of NHL cases are this type. Mantel cell lymphoma is also more commonly diagnosed at a later stage, and it usually occurs in or involves the gastrointestinal tract or bone marrow. Discover the risk factors and symptoms of mantle cell lymphoma.
-	* 
-Primary mediastinal B cell lymphoma
-
-
-This subtype of B-cell lymphoma accounts for almost 10 percent of DLBCL cases. It predominantly affects women in their 20s and 30s.
-	* 
-Small lymphocytic lymphoma
-
-
-Small lymphatic lymphoma (SLL) is a type of slow-growing lymphoma. The cancer cells of SLL are found mostly in the lymph nodes. SLL is identical to chronic lymphocytic leukemia (CLL), but with CLL, the majority of cancer cells are found in the blood and bone marrow.
-	* 
-Waldenstrom macroglobulinemia (lymphoplasmacytic lymphoma)
-
-
-Lymphoplasmacytic lymphoma (LPL) is a rare type of cancer that accounts for just 1 to 2 percent of all lymphomas. It mostly affects older adults. Waldenstrom macroglobulinemia is a subtype of LPL. It causes the abnormal production of antibodies. Many people with LPL have anemia; read more about other common symptoms and risk factors.
+>This aggressive form of lymphoma is rare — only about 6 percent of NHL cases are this type. Mantel cell lymphoma is also more commonly diagnosed at a later stage, and it usually occurs in or involves the gastrointestinal tract or bone marrow. Discover the risk factors and symptoms of mantle cell lymphoma.
+* **Primary mediastinal B cell lymphoma**
+>This subtype of B-cell lymphoma accounts for almost 10 percent of DLBCL cases. It predominantly affects women in their 20s and 30s.
+* **Small lymphocytic lymphoma**
+>Small lymphatic lymphoma (SLL) is a type of slow-growing lymphoma. The cancer cells of SLL are found mostly in the lymph nodes. SLL is identical to chronic lymphocytic leukemia (CLL), but with CLL, the majority of cancer cells are found in the blood and bone marrow.
+* **Waldenstrom macroglobulinemia(lymphoplasmacytic lymphoma)**
+>Lymphoplasmacytic lymphoma (LPL) is a rare type of cancer that accounts for just 1 to 2 percent of all lymphomas. It mostly affects older adults. Waldenstrom macroglobulinemia is a subtype of LPL. It causes the abnormal production of antibodies. Many people with LPL have anemia; read more about other common symptoms and risk factors.
 
 ### Hodgkin’s lymphoma
-Hodgkin’s lymphomas typically start in B-cells or immune system cells known as Reed-Sternberg (RS) cells. While the main cause of Hodgkin’s lymphoma is not known, certain risk factors can increase your chances of developing this type of cancer. Learn what these risk factors are.
-
-Hodgkin’s lymphoma types include:
-	* 
-Lymphocyte-depleted Hodgkin’s disease
-
-
-This rare, aggressive type of lymphoma occurs in about 1 percent of lymphoma cases, and it’s most commonly diagnosed in individuals in their 30s. In diagnostic tests, doctors will see normal lymphocytes with an abundance of RS cells.
+Hodgkin’s lymphomas typically start in B-cells or immune system cells known as Reed-Sternberg (RS) cells. While the main cause of Hodgkin’s lymphoma is not known, certain risk factors can increase your chances of developing this type of cancer. Learn what these risk factors are. Hodgkin’s lymphoma types include:
+* **Lymphocyte-depleted Hodgkin’s disease**
+>This rare, aggressive type of lymphoma occurs in about 1 percent of lymphoma cases, and it’s most commonly diagnosed in individuals in their 30s. In diagnostic tests, doctors will see normal lymphocytes with an abundance of RS cells.
 Patients with a compromised immune system, such as those with HIV, are more likely to be diagnosed with this type of lymphoma.
-	* 
-Lymphocyte-rich Hodgkin’s disease
-
-
-This type of lymphoma is more common in men, and it accounts for about 5 percent of Hodgkin’s lymphoma cases. Lymphocyte-rich Hodgkin’s disease is typically diagnosed at an early stage, and both lymphocytes and RS cells are present in diagnostic tests.
-	* 
-Mixed cellularity Hodgkin’s lymphoma
-
-
-Like with lymphocyte-rich Hodgkin’s disease, mixed cellularity Hodgkin’s lymphoma contains both lymphocytes and RS cells. It’s more common — almost a quarter of Hodgkin’s lymphoma cases are this type — and it’s more prevalent in older adult men.
-	* 
-Nodular lymphocyte-predominant Hodgkin’s disease
-
-
-Nodular lymphocyte-predominant Hodgkin’s disease (NLPHL) type of Hodgkin’s lymphoma occurs in about 5 percent of lymphoma patients, and it’s characterized by an absence of RS cells.
+* **Lymphocyte-rich Hodgkin’s disease**
+>This type of lymphoma is more common in men, and it accounts for about 5 percent of Hodgkin’s lymphoma cases. Lymphocyte-rich Hodgkin’s disease is typically diagnosed at an early stage, and both lymphocytes and RS cells are present in diagnostic tests.
+* **Mixed cellularity Hodgkin’s lymphoma**
+>Like with lymphocyte-rich Hodgkin’s disease, mixed cellularity Hodgkin’s lymphoma contains both lymphocytes and RS cells. It’s more common — almost a quarter of Hodgkin’s lymphoma cases are this type — and it’s more prevalent in older adult men.
+* **Nodular lymphocyte-predominant Hodgkin’s disease**
+>Nodular lymphocyte-predominant Hodgkin’s disease (NLPHL) type of Hodgkin’s lymphoma occurs in about 5 percent of lymphoma patients, and it’s characterized by an absence of RS cells.
 NLPHL is most common in people between the ages of 30 and 50, and it’s more common in males. Rarely, NLPHL can progress or transform into a type of aggressive NHL.
-	* 
-Nodular sclerosis Hodgkin’s lymphoma
-
-
-This common type of lymphoma occurs in 70 percent of Hodgkin’s cases, and it’s more common in young adults than any other group. This type of lymphoma occurs in lymph nodes that contain scar tissue, or sclerosis.
-Fortunately, this type of lymphoma is highly treatable with a high curate rate.
+* Nodular sclerosis Hodgkin’s lymphoma
+>This common type of lymphoma occurs in 70 percent of Hodgkin’s cases, and it’s more common in young adults than any other group. This type of lymphoma occurs in lymph nodes that contain scar tissue, or sclerosis.
 
 Specimen to Dataset
 ==========
-A total of 113 lymphomas (19 BL, 77 DLBCL, 6 intermediate between BL and DLBCL, and 11 unclassiﬁed aggressive B-cell lymphomas) diagnosed between 2010 and 2015 with known MYC status wereselected. MYC IHC stains were produced in 2014 and 2015. All specimens had been ﬁxed in formalin (37% formaldehyde in aqueous solution) and embedded in paraﬃn. Although a small group of cases (B20%) was studied retrospectively, all cases in this analysis were stained utilizing freshly cut thin sections.
+A total of 113 lymphomas (19 BL, 77 DLBCL, 6 intermediate between BL and DLBCL, and 11 unclassiﬁed aggressive B-cell lymphomas) diagnosed between 2010 and 2015 with known MYC status were selected. MYC IHC stains were produced in 2014 and 2015. All specimens had been ﬁxed in formalin (37% formaldehyde in aqueous solution) and embedded in paraﬃn. Although a small group of cases (B20%) was studied retrospectively, all cases in this analysis were stained utilizing freshly cut thin sections.
 
 The dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
 
