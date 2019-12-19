@@ -1,0 +1,24 @@
+,Test File,ID,True Label,Predicted Label
+0,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/2_neg.tif,2,0,0
+1,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/7_pos.tif,7,1,1
+2,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/11_pos.tif,11,1,1
+3,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/16_neg.tif,16,0,0
+4,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/17_neg.tif,17,0,0
+5,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/24_neg.tif,24,0,0
+6,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/28_neg.tif,28,0,0
+7,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/29_pos.tif,29,1,1
+8,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/44_pos.tif,44,1,1
+9,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/45_pos.tif,45,1,1
+10,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/48_pos.tif,48,1,1
+11,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/53_neg.tif,53,0,1
+12,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/57_neg.tif,57,0,0
+13,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/66_neg.tif,66,0,0
+14,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/79_neg.tif,79,0,0
+15,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/82_neg.tif,82,0,0
+16,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/87_neg.tif,87,0,0
+17,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/89_pos.tif,89,1,0
+18,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/93_neg.tif,93,0,0
+19,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/100_neg.tif,100,0,0
+20,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/105_neg.tif,105,0,0
+21,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/109_pos.tif,109,1,0
+22,/content/drive/My Drive/Colab Notebooks/nray/DLBCL/TestRun1/Test/110_neg.tif,110,0,1
