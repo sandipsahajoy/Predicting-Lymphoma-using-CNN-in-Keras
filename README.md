@@ -17,13 +17,13 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
 | MYC IHC |
-| <img src="/readme/2_neg.jpg" height="150" width="200" > | <img src="/readme/7_pos.jpg" height="150" width="200" >  |
+| <img src="/readme/2_neg.jpg" height="200" width="250" > | <img src="/readme/7_pos.jpg" height="200" width="250" >  |
 | DAB(MYC signal) |
-| <img src="/readme/dab_2_neg.jpg" height="150" width="200" > | <img src="/readme/dab_7_pos.jpg" height="150" width="200" >  |
+| <img src="/readme/dab_2_neg.jpg" height="200" width="250" > | <img src="/readme/dab_7_pos.jpg" height="200" width="250" >  |
 | Distance map of positive nuclei  |
-| <img src="/readme/dist_2_neg.jpg" height="150" width="200" > | <img src="/readme/dist_7_pos.jpg" height="150" width="200" >  |
+| <img src="/readme/dist_2_neg.jpg" height="200" width="250" > | <img src="/readme/dist_7_pos.jpg" height="200" width="250" >  |
 | Hematoxylin(blue counterstrain) |
-| <img src="/readme/hem_2_neg.jpg" height="150" width="200" > | <img src="/readme/hem_7_pos.jpg" height="150" width="200" >  |
+| <img src="/readme/hem_2_neg.jpg" height="200" width="250" > | <img src="/readme/hem_7_pos.jpg" height="200" width="250" >  |
 
 Training
 ==========
