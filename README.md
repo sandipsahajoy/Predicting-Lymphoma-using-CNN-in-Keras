@@ -7,8 +7,19 @@ Dataset
 
 | col 1      | col 2      |
 |------------|------------|
-| <img src="/sample/2_neg.jpg" align="center" height="200" width="300" > 
-| <img src="/sample/7_pos.jpg" align="center" height="200" width="300" >  |
+| <img src="/readme/2_neg.jpg" height="200" width="300" > | <img src="/readme/7_pos.jpg" height="200" width="300" >  |
+
+| col 1      | col 2      |
+|------------|------------|
+| <img src="/readme/dab_2_neg.jpg" height="200" width="300" > | <img src="/readme/dab_7_pos.jpg" height="200" width="300" >  |
+
+| col 1      | col 2      |
+|------------|------------|
+| <img src="/readme/dist_2_neg.jpg" height="200" width="300" > | <img src="/readme/dist_7_pos.jpg" height="200" width="300" >  |
+
+| col 1      | col 2      |
+|------------|------------|
+| <img src="/readme/hem_2_neg.jpg" height="200" width="300" > | <img src="/readme/hem_7_pos.jpg" height="200" width="300" >  |
 
 
 
