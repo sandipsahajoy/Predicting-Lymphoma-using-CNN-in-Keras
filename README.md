@@ -4,11 +4,18 @@ Classifying histopathology slides of Lymphoma as malignant or benign using CNN
 ```
 Dataset
 ==========
-The original dataset consisted of 113 whole mount slide images of Lymphoma specimens scanned at 20x. From that, 277,524 patches of size 50 x 50 were extracted (198,738 IDC negative and 78,786 IDC positive). Each patch’s file name is of the format: u_xX_yY_classC.png — > example 10253_idx5_x1351_y1101_class0.png . Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patch was cropped from, Y is the y-coordinate of where this patch was cropped from, and C indicates the class where 0 is non-IDC and 1 is IDC.
+The original dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of mother image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
+
+Each mother image file name is of the format: type_patientID_class.tif 
+Example:
+— > 2_neg.tif
+— > dab_2_neg.tif 
+— > dist_2_neg.tif 
+— > hem_2_neg.tif
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
-| DLBCL MYC IHC |
+| MYC IHC |
 | <img src="/readme/2_neg.jpg" height="200" width="300" > | <img src="/readme/7_pos.jpg" height="200" width="300" >  |
 | DAB(MYC signal) |
 | <img src="/readme/dab_2_neg.jpg" height="200" width="300" > | <img src="/readme/dab_7_pos.jpg" height="200" width="300" >  |
