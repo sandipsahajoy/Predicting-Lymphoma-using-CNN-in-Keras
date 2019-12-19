@@ -1,7 +1,7 @@
 # Predicting-Lymphoma-using-CNN-in-Keras
 Context
 ==========
-#### Classifying histopathology slides of Lymphoma as malignant or benign using CNN
+### Classifying histopathology slides of Lymphoma as malignant or benign using Convolutional Neural Network(CNN)
 
 <img src="/readme/inference/Slide2.JPG" height="450" width="800" >
 
@@ -68,7 +68,7 @@ According to the Leukemia & Lymphoma Society (LLS), NHL is three times more comm
 >This subtype of B-cell lymphoma accounts for almost 10 percent of DLBCL cases. It predominantly affects women in their 20s and 30s.
 * **Small lymphocytic lymphoma**
 >Small lymphatic lymphoma (SLL) is a type of slow-growing lymphoma. The cancer cells of SLL are found mostly in the lymph nodes. SLL is identical to chronic lymphocytic leukemia (CLL), but with CLL, the majority of cancer cells are found in the blood and bone marrow.
-* **Waldenstrom macroglobulinemia(lymphoplasmacytic lymphoma)**
+* **Waldenstrom macroglobulinemia (lymphoplasmacytic lymphoma)**
 >Lymphoplasmacytic lymphoma (LPL) is a rare type of cancer that accounts for just 1 to 2 percent of all lymphomas. It mostly affects older adults. Waldenstrom macroglobulinemia is a subtype of LPL. It causes the abnormal production of antibodies. Many people with LPL have anemia; read more about other common symptoms and risk factors.
 
 ### Hodgkin’s lymphoma
@@ -83,34 +83,35 @@ Patients with a compromised immune system, such as those with HIV, are more like
 * **Nodular lymphocyte-predominant Hodgkin’s disease**
 >Nodular lymphocyte-predominant Hodgkin’s disease (NLPHL) type of Hodgkin’s lymphoma occurs in about 5 percent of lymphoma patients, and it’s characterized by an absence of RS cells.
 NLPHL is most common in people between the ages of 30 and 50, and it’s more common in males. Rarely, NLPHL can progress or transform into a type of aggressive NHL.
-* Nodular sclerosis Hodgkin’s lymphoma
+* **Nodular sclerosis Hodgkin’s lymphoma**
 >This common type of lymphoma occurs in 70 percent of Hodgkin’s cases, and it’s more common in young adults than any other group. This type of lymphoma occurs in lymph nodes that contain scar tissue, or sclerosis.
 
 Specimen to Dataset
 ==========
-A total of 113 lymphomas (19 BL, 77 DLBCL, 6 intermediate between BL and DLBCL, and 11 unclassiﬁed aggressive B-cell lymphomas) diagnosed between 2010 and 2015 with known MYC status were selected. MYC IHC stains were produced in 2014 and 2015. All specimens had been ﬁxed in formalin (37% formaldehyde in aqueous solution) and embedded in paraﬃn. Although a small group of cases (B20%) was studied retrospectively, all cases in this analysis were stained utilizing freshly cut thin sections.
+A total of 113 lymphomas (19 Burkitt’s lymphoma(BL), 77 Diffuse large B-cell lymphoma(DLBCL), 6 intermediate between BL and DLBCL, and 11 unclassiﬁed aggressive B-cell lymphomas) diagnosed between 2010 and 2015 with known MYC status were selected. MYC IHC stains were produced in 2014 and 2015. All specimens had been ﬁxed in formalin (37% formaldehyde in aqueous solution) and embedded in paraﬃn. Although a small group of cases (B20%) was studied retrospectively, all cases in this analysis were stained utilizing freshly cut thin sections.
 
-The dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
+The dataset consisted of 4 types of 113 whole mount slide images (2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
 
 Each type of mother image file name is of the format: **type_patientID_class.tif**
 
 | Example    | Example     | Type         | Type serial |
 |------------|-------------|--------------|-------------|
 |2_neg.tif|7_pos.tif|MYC IHC|0|
-|dab_2_neg.tif|dab_7_pos.tif|DAB(MYC signal)|1|
+|dab_2_neg.tif|dab_7_pos.tif|DAB (MYC signal)|1|
 |dist_2_neg.tif|dist_7_pos.tif|Distance map of positive nuclei|2|
-|hem_2_neg.tif|hem_7_pos.tif|Hematoxylin(blue counterstrain)|3|
+|hem_2_neg.tif|hem_7_pos.tif|Hematoxylin (blue counterstrain)|3|
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
-| MYC IHC |
+| MYC IHC | MYC IHC |
 | <img src="/readme/2_neg.jpg" height="200" width="250" > | <img src="/readme/7_pos.jpg" height="200" width="250" >  |
-| DAB(MYC signal) |
+| DAB(MYC signal) | DAB(MYC signal) |
 | <img src="/readme/dab_2_neg.jpg" height="200" width="250" > | <img src="/readme/dab_7_pos.jpg" height="200" width="250" >  |
-| Distance map of positive nuclei  |
+| Distance map of positive nuclei  | Distance map of positive nuclei  |
 | <img src="/readme/dist_2_neg.jpg" height="200" width="250" > | <img src="/readme/dist_7_pos.jpg" height="200" width="250" >  |
-| Hematoxylin(blue counterstrain) |
+| Hematoxylin(blue counterstrain) | Hematoxylin(blue counterstrain) |
 | <img src="/readme/hem_2_neg.jpg" height="200" width="250" > | <img src="/readme/hem_7_pos.jpg" height="200" width="250" >  |
+
 
 Training & Evaluation
 ==========
@@ -118,11 +119,11 @@ The whole process is divided into 10 TestRuns to assure performance consistency 
 
 Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
 
-First, two different model architectures are compared on the basis of performance on just type-0(MYC IHC) master image.
+First, two different model architectures are compared on the basis of performance on just type-0 (MYC IHC) master image.
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
-| MYC IHC |
+| MYC IHC | MYC IHC |
 | <img src="/readme/2_neg.jpg" height="200" width="250" > | <img src="/readme/7_pos.jpg" height="200" width="250" >  |
 
 <img src="/readme/inference/Slide3.JPG" height="450" width="800" >
@@ -142,10 +143,12 @@ First, two different model architectures are compared on the basis of performanc
 
 
 
+
+Acknowledgements
+==========
+* Dataset: https://bit.ly/2MdWSzp
+* Citation: https://www.ncbi.nlm.nih.gov/pubmed/27093450
+
 Feedback
 ==========
 Please send me your feedback at sandipsahajoy@ualberta.ca
-
-Reference
-==========
-1. https://www.ncbi.nlm.nih.gov/pubmed/27093450
