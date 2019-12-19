@@ -1,5 +1,5 @@
 # Predicting-DLBCL-using-CNN-in-Keras
-# Classifying histopathology slides of Diffuse large B-cell lymphoma (DLBCL) as malignant or benign using CNN
+→ Classifying histopathology slides of Diffuse large B-cell lymphoma (DLBCL) as malignant or benign using CNN
 ==========
 
 
