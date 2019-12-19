@@ -4,7 +4,11 @@ Classifying histopathology slides of Diffuse large B-cell lymphoma (DLBCL) as ma
 ```
 Dataset
 ==========
-<a href="url"><img src="/DLBCL/TestRun1/Test/2_neg.tif" align="center" height="500" width="500" ></a> 
+
+| col 1      | col 2      |
+|------------|------------|
+| <img src="/sample/2_neg.jpg" align="center" height="200" width="300" > 
+| <img src="/sample/7_pos.jpg" align="center" height="200" width="300" >  |
 
 
 
