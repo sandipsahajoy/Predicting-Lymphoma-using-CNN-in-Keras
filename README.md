@@ -17,13 +17,17 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
 | MYC IHC |
-| <img src="/readme/2_neg.jpg" height="200" width="300" > | <img src="/readme/7_pos.jpg" height="200" width="300" >  |
+| <img src="/readme/2_neg.jpg" height="150" width="200" > | <img src="/readme/7_pos.jpg" height="150" width="200" >  |
 | DAB(MYC signal) |
-| <img src="/readme/dab_2_neg.jpg" height="200" width="300" > | <img src="/readme/dab_7_pos.jpg" height="200" width="300" >  |
+| <img src="/readme/dab_2_neg.jpg" height="150" width="200" > | <img src="/readme/dab_7_pos.jpg" height="150" width="200" >  |
 | Distance map of positive nuclei  |
-| <img src="/readme/dist_2_neg.jpg" height="200" width="300" > | <img src="/readme/dist_7_pos.jpg" height="200" width="300" >  |
+| <img src="/readme/dist_2_neg.jpg" height="150" width="200" > | <img src="/readme/dist_7_pos.jpg" height="150" width="200" >  |
 | Hematoxylin(blue counterstrain) |
-| <img src="/readme/hem_2_neg.jpg" height="200" width="300" > | <img src="/readme/hem_7_pos.jpg" height="200" width="300" >  |
+| <img src="/readme/hem_2_neg.jpg" height="150" width="200" > | <img src="/readme/hem_7_pos.jpg" height="150" width="200" >  |
+
+Training
+==========
+For training, size of trainset is 90x4 and testset is 23x4 out of 113x4 mother images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
 
 
 
