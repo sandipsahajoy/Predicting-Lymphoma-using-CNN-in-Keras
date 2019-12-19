@@ -1,12 +1,11 @@
 # Predicting-Lymphoma-using-CNN-in-Keras
-```
-Classifying histopathology slides of Lymphoma as malignant or benign using CNN
-```
+### Classifying histopathology slides of Lymphoma as malignant or benign using CNN
+
 Dataset
 ==========
 The original dataset consisted of 4 types of 113 whole mount slide images(2560x1920) of Lymphoma specimens scanned at 20x. From each type of mother image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
 
-Each type of mother image file name is of the format: type_patientID_class.tif
+Each type of mother image file name is of the format: **type_patientID_class.tif**
 
 | Example    | Example     | Type         | Type serial |
 |------------|-------------|--------------|-------------|
