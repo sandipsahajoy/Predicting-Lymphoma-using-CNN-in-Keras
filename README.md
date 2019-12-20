@@ -68,7 +68,7 @@ The dataset consisted of 4 types of 113 whole mount slide images (2560x1920) of 
 
 Each type of mother image file name is of the format: **type_patientID_class.tif**
 
-| Example    | Example     | Type         | Type serial |
+| Example    | Example     | Image Type   | Type serial |
 |------------|-------------|--------------|-------------|
 |2_neg.tif|7_pos.tif|MYC IHC|0|
 |dab_2_neg.tif|dab_7_pos.tif|DAB (MYC signal)|1|
@@ -86,14 +86,9 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 | Hematoxylin(blue counterstrain) | Hematoxylin(blue counterstrain) |
 | <img src="/readme/hem_2_neg.jpg" height="200" width="250" > | <img src="/readme/hem_7_pos.jpg" height="200" width="250" >  |
 
-
-Training & Evaluation
+Model Architecture Selection
 ==========
-The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
-
-Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
-
-First, two different model architectures are compared on the basis of performance on just type-0 (MYC IHC) master image.
+Two different model architectures are compared on the basis of performance on train-test dataset generated with 113 type-0 (MYC IHC) master images. The best one, VGG19 is selected.
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
@@ -102,6 +97,21 @@ First, two different model architectures are compared on the basis of performanc
 
 <img src="/readme/inference/Slide3.JPG" height="450" width="800" >
 <img src="/readme/inference/Slide5.JPG" height="450" width="800" >
+
+Training Detail
+==========
+The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
+
+Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
+
+For each of the 10 TestRuns, there are 3 different versions of trained model on the basis of combination of 4 types of 113 master images.
+
+| Training Version | Model Name | Image Type | Type serial | Sample |
+|------------------|------------|------------|-------------|--------|
+| 1 | VGGNet19 | MYC IHC | 0 | <img src="/readme/2_neg.jpg" height="75" width="100" > |
+| 2 | VGGNet19v2 | MYC IHC <br> DAB (MYC signal) <br> Distance map of positive nuclei <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 2 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dist_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
+| 3 | VGGNet19v4 | MYC IHC <br> DAB (MYC signal) <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
+
 
 
 
