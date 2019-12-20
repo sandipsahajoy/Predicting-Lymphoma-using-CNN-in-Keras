@@ -1,7 +1,7 @@
 # Predicting-Lymphoma-using-CNN-in-Keras
 Context
 ==========
-### Classifying histopathology slides of Lymphoma as malignant or benign using Convolutional Neural Network(CNN)
+#### Classifying histopathology slides of Lymphoma as malignant or benign using Convolutional Neural Network(CNN)
 
 <img src="/readme/inference/Slide2.JPG" height="450" width="800" >
 
@@ -24,28 +24,6 @@ Doctors classify more than 70 cancer types as lymphomas. Lymphomas can affect an
 ### What are the causes of lymphoma?
 Cancer is the result of uncontrolled cell growth. The average lifespan of a cell is brief, and then the cell dies. In people with lymphoma, however, the cell thrives and spreads instead of dying. It’s unclear what causes lymphoma, but a number of risk factors are connected with these cancers.
 
-### What are risk factors for lymphoma?
-Most diagnosed lymphoma cases have no known cause. However, some people are considered higher risk.
-* **Non-Hodgkin’s lymphoma risk factors**
-	* **Immunodeficiency:** This could be due to a weak immune system from human immunodeficiency virus (HIV) or AIDs, or taking an immune system-suppressing drug after an organ transplant.
-	* **Autoimmune disease:** People with certain autoimmune disease, such as rheumatoid arthritis and celiac disease, have an increased risk for lymphoma.
-	* **Age:** Lymphoma is most common in people over 60. However, some types are more common in children and infants.
-	* **Sex:** Women are more likely to develop some particular types of lymphoma, and men are more likely to develop other types.
-	* **Ethnicity:** White Americans in the United States are more likely to develop some types of lymphoma than African-Americans or Asian-Americans.
-	* **Infection:** People who have had infections such as the human T-cell leukemia/lymphotropic virus (HTLV-1), Heliobacter pylori, hepatitis C, or the Epstein-Barr virus (EBV) are associated with an increased risk.
-	* **Chemical and radiation exposure:** Those exposed to chemicals in pesticides, fertilizers, and herbicides are also at increased risk. Nuclear radiation can also increase risks for developing NHL.
-	* **Body size:** Obesity has been connected to lymphoma as a possible risk factor, but more research is needed to understand this possible risk factor.
-
-* **Hodgkin’s lymphoma risk factors**
-	* **Age:** More cases are diagnosed in people between the ages of 20 and 30, and in people over 55.
-	* **Sex:** Men are more likely than women to develop this type of lymphoma.
-	* **Family history:** If asibling is diagnosed with this type of cancer, your risk for also developing it is higher.
-	* **Infectious mononucleosis:** An EBV infection can cause mononucleosis. This infection can increase the risk for lymphoma.
-	* **Affluence:** Individuals that come from a background with a higher socioeconomic status have a greater risk for this type of cancer.
-	* **Immunodeficiency:** Individuals with HIV have a greater risk for developing lymphoma.
-
-
-
 ### How is lymphoma diagnosed?
 A biopsy typically is taken if a doctor suspects lymphoma. This involves removing cells from an enlarged lymph node. A doctor known as a hematopathologist will examine the cells to determine if lymphoma cells are present and what cell type they are. If the hematopathologist detects lymphoma cells, further testing can identify how far the cancer has spread. These tests can include a chest X-ray, blood testing, or testing nearby lymph nodes or tissues. Imaging scans, such as a computed tomography (CT) or magnetic resonance imaging (MRI) scans may also identify additional tumors or enlarged lymph nodes.
 
@@ -62,14 +40,10 @@ According to the Leukemia & Lymphoma Society (LLS), NHL is three times more comm
 >Burkitt’s lymphoma is a rare type of NHL that is aggressive and most common in people with compromised immune systems. This type of lymphoma is most common in children in sub-Saharan Africa, but it does occur in other parts of the world. Learn more about this rare type of non-Hodgkin’s lymphoma.
 * **Follicular lymphoma**
 >One in 5 lymphomas diagnosed in the United States are follicular lymphoma. This type of NHL, which starts in the white blood cells, is most common in older individuals. The average age of diagnosis is 60. This lymphoma is also slow-growing, so treatments begins with watchful waiting. Read more about this strategy.
-* **Mantle cell lymphoma**
->This aggressive form of lymphoma is rare — only about 6 percent of NHL cases are this type. Mantel cell lymphoma is also more commonly diagnosed at a later stage, and it usually occurs in or involves the gastrointestinal tract or bone marrow. Discover the risk factors and symptoms of mantle cell lymphoma.
 * **Primary mediastinal B cell lymphoma**
 >This subtype of B-cell lymphoma accounts for almost 10 percent of DLBCL cases. It predominantly affects women in their 20s and 30s.
 * **Small lymphocytic lymphoma**
 >Small lymphatic lymphoma (SLL) is a type of slow-growing lymphoma. The cancer cells of SLL are found mostly in the lymph nodes. SLL is identical to chronic lymphocytic leukemia (CLL), but with CLL, the majority of cancer cells are found in the blood and bone marrow.
-* **Waldenstrom macroglobulinemia (lymphoplasmacytic lymphoma)**
->Lymphoplasmacytic lymphoma (LPL) is a rare type of cancer that accounts for just 1 to 2 percent of all lymphomas. It mostly affects older adults. Waldenstrom macroglobulinemia is a subtype of LPL. It causes the abnormal production of antibodies. Many people with LPL have anemia; read more about other common symptoms and risk factors.
 
 ### Hodgkin’s lymphoma
 Hodgkin’s lymphomas typically start in B-cells or immune system cells known as Reed-Sternberg (RS) cells. While the main cause of Hodgkin’s lymphoma is not known, certain risk factors can increase your chances of developing this type of cancer. Learn what these risk factors are. Hodgkin’s lymphoma types include:
@@ -94,7 +68,7 @@ The dataset consisted of 4 types of 113 whole mount slide images (2560x1920) of 
 
 Each type of mother image file name is of the format: **type_patientID_class.tif**
 
-| Example    | Example     | Type         | Type serial |
+| Example    | Example     | Image Type   | Type serial |
 |------------|-------------|--------------|-------------|
 |2_neg.tif|7_pos.tif|MYC IHC|0|
 |dab_2_neg.tif|dab_7_pos.tif|DAB (MYC signal)|1|
@@ -112,14 +86,9 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 | Hematoxylin(blue counterstrain) | Hematoxylin(blue counterstrain) |
 | <img src="/readme/hem_2_neg.jpg" height="200" width="250" > | <img src="/readme/hem_7_pos.jpg" height="200" width="250" >  |
 
-
-Training & Evaluation
+Model Architecture Selection
 ==========
-The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
-
-Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
-
-First, two different model architectures are compared on the basis of performance on just type-0 (MYC IHC) master image.
+Two different model architectures are compared on the basis of performance on train-test dataset generated with 113 type-0 (MYC IHC) master images. The best one, VGG19 is selected.
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
@@ -128,6 +97,21 @@ First, two different model architectures are compared on the basis of performanc
 
 <img src="/readme/inference/Slide3.JPG" height="450" width="800" >
 <img src="/readme/inference/Slide5.JPG" height="450" width="800" >
+
+Training Detail
+==========
+The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
+
+Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mother images of a type is shuffled, then randomly 90 images of that type along with other 3 types holding same patientID are selected for trainset(90x4).
+
+For each of the 10 TestRuns, there are 3 different versions of trained model on the basis of combination of 4 types of 113 master images.
+
+| Training Version | Model Name | Image Type | Type serial | Sample |
+|------------------|------------|------------|-------------|--------|
+| 1 | VGGNet19 | MYC IHC | 0 | <img src="/readme/2_neg.jpg" height="75" width="100" > |
+| 2 | VGGNet19v2 | MYC IHC <br> DAB (MYC signal) <br> Distance map of positive nuclei <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 2 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dist_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
+| 3 | VGGNet19v4 | MYC IHC <br> DAB (MYC signal) <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
+
 
 
 
@@ -148,6 +132,7 @@ Acknowledgements
 ==========
 * Dataset: https://bit.ly/2MdWSzp
 * Citation: https://www.ncbi.nlm.nih.gov/pubmed/27093450
+* Reference: https://www.healthline.com/health/lymphoma#diagnosis
 
 Feedback
 ==========
