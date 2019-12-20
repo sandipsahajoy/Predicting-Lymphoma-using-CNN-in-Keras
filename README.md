@@ -88,7 +88,7 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 
 Model Architecture Selection
 ==========
-Two different model architectures are compared on the basis of performance on train-test dataset generated with 113 type-0 (MYC IHC) master images. The best one, VGG19 is selected.
+Two different model architectures are compared on the basis of performance on train-test dataset generated with 113 type-0 (MYC IHC) master images. **The best one, VGG19 is selected.**
 
 | Benign(-)  | Malignant(+)|
 |------------|-------------|
