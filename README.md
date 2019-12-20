@@ -98,7 +98,9 @@ Two different model architectures are compared on the basis of performance on tr
 <img src="/readme/inference/Slide3.JPG" height="450" width="800" >
 <img src="/readme/inference/Slide5.JPG" height="450" width="800" >
 
-Training Detail
+More details: ![Model Architecture Comparison](inference.pptx)
+
+Training Details
 ==========
 The whole process is divided into 10 TestRuns to assure performance consistency of the models. 10 testruns are performed for each model where they are trained and evaluated on different train-test dataset generated from shuffled raw set of master images.
 
