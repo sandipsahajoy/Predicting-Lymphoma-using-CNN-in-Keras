@@ -91,7 +91,7 @@ Each type of mother image file name is of the format: **type_patientID_class.tif
 | Hematoxylin(blue counterstrain) | Hematoxylin(blue counterstrain) |
 | <img src="/readme/hem_2_neg.jpg" height="200" width="250" > | <img src="/readme/hem_7_pos.jpg" height="200" width="250" >  |
 
-Model Architecture Selection
+Model Architecture Selection Strategy
 ==========
 Two different model architectures are compared on the basis of performance on train-test dataset generated with 113 type-0 (MYC IHC) master images. **The best one, VGG19 is selected.**
 
@@ -104,6 +104,12 @@ Two different model architectures are compared on the basis of performance on tr
 <img src="/readme/inference/Slide5.JPG" height="450" width="800" >
 
 More details: ![Model Architecture Comparison](inference.pptx)
+
+Model Architecture
+==========
+### For training version 2,
+
+<img src="model architecture plot.jpg" height="4000" width="300" >
 
 Training Details
 ==========
