@@ -2,8 +2,12 @@
 Context
 ==========
 #### Classifying histopathology slides of Lymphoma as malignant or benign using Convolutional Neural Network(CNN)
-
+This project serves as a demonstration of how deep convolutional neural networks can achieve high accuracies in cancer histopathological image classification. The data used in this model was from Cross Cancer Institute, Edmonton, AB, curated by pathologist Dr.Gilbert Bigras. He digitized each of the 113 Lymphoma MYC IHC slides and labeled images as benign and malignant. The project was supervised by Dr.Nilanjan Ray.
 <img src="/readme/inference/Slide2.JPG" height="450" width="800" >
+
+About Deep Neural Networks
+==========
+Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated. (Skymind.ai)
 
 About Lymphoma(Blood Cancer)
 ==========
@@ -64,7 +68,7 @@ Specimen to Dataset
 ==========
 A total of 113 lymphomas (19 Burkitt’s lymphoma(BL), 77 Diffuse large B-cell lymphoma(DLBCL), 6 intermediate between BL and DLBCL, and 11 unclassiﬁed aggressive B-cell lymphomas) diagnosed between 2010 and 2015 with known MYC status were selected. MYC IHC stains were produced in 2014 and 2015. All specimens had been ﬁxed in formalin (37% formaldehyde in aqueous solution) and embedded in paraﬃn. Although a small group of cases (B20%) was studied retrospectively, all cases in this analysis were stained utilizing freshly cut thin sections.
 
-The dataset consisted of 4 types of 113 whole mount slide images (2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
+The dataset consisted of 4 types of 113 whole mount slide images (2560x1920) of Lymphoma specimens scanned at 20x. From each type of master image, around 42,750 sequential non-overlapping child patches of size 100 x 100 were extracted (roughly 23,275 negative and 19,475 positive). 
 
 Each type of mother image file name is of the format: **type_patientID_class.tif**
 
@@ -130,10 +134,17 @@ For each of the 10 TestRuns, there are 3 different versions of trained model on 
 
 
 
+
 Acknowledgements
 ==========
+* Supervisors:
+  * Dr.Nilanjan Ray, Associate Professor, Department of Computing Science, University of Alberta, Canada
+  * Dr.Gilbert Bigras, Associate Professor, Department of Laboratory Medicine & Pathology, University of Alberta, Canada
 * Dataset: https://bit.ly/2MdWSzp
-* Citation: https://www.ncbi.nlm.nih.gov/pubmed/27093450
+* Citation: 
+  * https://www.ncbi.nlm.nih.gov/pubmed/27093450
+  * https://arxiv.org/abs/1409.1556
+  * https://arxiv.org/abs/1905.11946
 * Reference: https://www.healthline.com/health/lymphoma#diagnosis
 
 Feedback
