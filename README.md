@@ -119,14 +119,14 @@ Size of trainset is 90x4 and testset is 23x4 out of 113x4 master images. 113 mot
 
 For each of the 10 TestRuns, there are 3 different versions of trained model on the basis of combination of 4 types of 113 master images.
 
-| Training Version | Model Name | Image Type | Type serial | Sample |
-|------------------|------------|------------|-------------|--------|
-| 1 | VGGNet19 | MYC IHC | 0 | <img src="/readme/2_neg.jpg" height="75" width="100" > |
-| 2 | VGGNet19v2 | MYC IHC <br> DAB (MYC signal) <br> Distance map of positive nuclei <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 2 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dist_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
-| 3 | VGGNet19v4 | MYC IHC <br> DAB (MYC signal) <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 3 | <img src="/readme/2_neg.jpg" height="75" width="100" > <br> <img src="/readme/dab_2_neg.jpg" height="75" width="100" > <br> <img src="/readme/hem_2_neg.jpg" height="75" width="100" > |
+| Training Version | Model Name | Image Type | Type serial | Sample | Training History <br> (TestRun1) |
+|------------------|------------|------------|-------------|--------|------------------|
+| 1 | VGGNet19 | MYC IHC | 0 | <img src="/readme/2_neg.jpg" height="100" width="200" > | <img src="/DLBCL/TestRun1/VGGNet19/acc_loss.png" height="400" width="525" >
+| 2 | VGGNet19v2 | MYC IHC <br> DAB (MYC signal) <br> Distance map of positive nuclei <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 2 <br> 3 | <img src="/readme/2_neg.jpg" height="100" width="200" > <br> <img src="/readme/dab_2_neg.jpg" height="100" width="200" > <br> <img src="/readme/dist_2_neg.jpg" height="100" width="200" > <br> <img src="/readme/hem_2_neg.jpg" height="100" width="200" > | <img src="/DLBCL/TestRun1/VGGNet19v2/acc_loss.png" height="400" width="525" >
+| 3 | VGGNet19v4 | MYC IHC <br> DAB (MYC signal) <br> Hematoxylin (blue counterstrain) | 0 <br> 1 <br> 3 | <img src="/readme/2_neg.jpg" height="100" width="200" > <br> <img src="/readme/dab_2_neg.jpg" height="100" width="200" > <br> <img src="/readme/hem_2_neg.jpg" height="100" width="200" > | <img src="/DLBCL/TestRun1/VGGNet19v4/acc_loss.png" height="400" width="525" >
 
-
-
+Testing Details
+==========
 
 
 
