@@ -130,11 +130,11 @@ Testing Details
 ### Testing Time:
 GPU on google colab: Tesla P100  
 * version 1:
- * 1.3 sec per image(full size)    
+  * 1.3 sec per image(full size)
 * version 2:
-  sec per image(full size)    
-> version 3:
->> 4.5 sec per image(full size)    
+  * 7 sec per image(full size)    
+* version 3:
+  * 4.5 sec per image(full size)    
 
 <img src="/readme/output.jpg" height="840" width="777" >
 
