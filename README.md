@@ -136,21 +136,12 @@ GPU on google colab: Tesla P100
 * version 3:
   * 4.5 sec per image(full size)    
 
+### Results:
+Test result of each of the 3 versions of model on each of the 10 testruns with testset size of 23 full size image.
+
 <img src="/readme/output.jpg" height="840" width="777" >
 
 <img src="/readme/test_inference_plot.png" height="2000" width="750" >
-
-
-
-
-
-
-
-
-
-
-
-
 
 Acknowledgements
 ==========
