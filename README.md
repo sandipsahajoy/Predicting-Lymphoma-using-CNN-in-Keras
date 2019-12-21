@@ -3,6 +3,7 @@ Context
 ==========
 #### Classifying histopathology slides of Lymphoma as malignant or benign using Convolutional Neural Network(CNN)
 This project serves as a demonstration of how deep convolutional neural networks can achieve high accuracies in cancer histopathological image classification. The data used in this model was from Cross Cancer Institute, Edmonton, AB, curated by pathologist Dr.Gilbert Bigras. He digitized each of the 113 Lymphoma MYC IHC slides and labeled images as benign and malignant. The project was supervised by Dr.Nilanjan Ray.
+
 <img src="/readme/inference/Slide2.JPG" height="450" width="800" >
 
 About Deep Neural Networks
