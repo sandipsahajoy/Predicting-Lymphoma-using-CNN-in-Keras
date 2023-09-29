@@ -103,7 +103,7 @@ Two different model architectures are compared on the basis of performance on tr
 <img src="/readme/inference/Slide3.JPG" height="450" width="800" >
 <img src="/readme/inference/Slide5.JPG" height="450" width="800" >
 
-More details: ![Model Architecture Comparison](model_selection_inference.pptx)
+More details: [Model Architecture Comparison](model_selection_inference.pptx)
 
 Model Architecture
 ==========
